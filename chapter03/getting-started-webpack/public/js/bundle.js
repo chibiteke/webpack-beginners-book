@@ -105,7 +105,7 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_add__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/add */ \"./src/js/modules/add.js\");\n/* harmony import */ var _modules_tax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/tax */ \"./src/js/modules/tax.js\");\n\n\n\n\nconst item1Price = 400;\nconst item2Price = 600;\nconst totalPrice = Object(_modules_add__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(item1Price, item2Price);\nconst salesTax = 1.08;\nconst priceIncludeTax = Object(_modules_tax__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(totalPrice, salesTax);\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()('body').text(priceIncludeTax);\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_add__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/add */ \"./src/js/modules/add.js\");\n/* harmony import */ var _modules_tax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/tax */ \"./src/js/modules/tax.js\");\n\r\n\r\n\r\n\r\nconst item1Price = 400;\r\nconst item2Price = 600;\r\nconst totalPrice = Object(_modules_add__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(item1Price, item2Price);\r\nconst salesTax = 1.08;\r\nconst priceIncludeTax = Object(_modules_tax__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(totalPrice, salesTax);\r\n\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()('body').text(priceIncludeTax);\r\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
 
 /***/ }),
 
@@ -117,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return add; });\nfunction add(number1, number2) {\n  return number1 + number2;\n}\n\n\n//# sourceURL=webpack:///./src/js/modules/add.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return add; });\nfunction add(number1, number2) {\r\n  return number1 + number2;\r\n}\r\n\n\n//# sourceURL=webpack:///./src/js/modules/add.js?");
 
 /***/ }),
 
@@ -129,7 +129,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return tax; });\nfunction tax(price, salesTax) {\n  return Math.round(price * salesTax);\n}\n\n\n//# sourceURL=webpack:///./src/js/modules/tax.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return tax; });\nfunction tax(price, salesTax) {\r\n  return Math.round(price * salesTax);\r\n}\r\n\n\n//# sourceURL=webpack:///./src/js/modules/tax.js?");
 
 /***/ })
 
