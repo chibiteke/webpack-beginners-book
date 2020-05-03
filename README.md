@@ -31,3 +31,7 @@
 
 - [chapter07/using-tree-shaking](chapter07/using-tree-shaking): Tree Shaking を利用して不要なコードを削除するサンプルコード
 - [chapter07/using-split-chunks-plugin](chapter07/using-split-chunks-plugin): SplitChunksPlugin を利用して共通モジュールを出力し、全体のファイルサイズを削減するサンプルコード
+
+# 参考サイト
+
+- [webpack 公式](https://webpack.js.org/)
